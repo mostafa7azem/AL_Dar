@@ -1,6 +1,6 @@
 
 @include('header')
-<nav class="uk-navbar-container uk-background-secondary" uk-navbar>
+<nav class=" uk-background-secondary" uk-navbar>
     <div class="uk-navbar-center uk-light uk-background-secondary">
 
         <div class="uk-navbar-center-left uk-light uk-background-secondary"><div>
@@ -22,6 +22,7 @@
         <div class="uk-navbar-center-right uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
                 <li><a href="#">contact</a></li>
+                <li><a href="#">login</a></li>
             </ul>
         </div></div>
 
@@ -74,16 +75,40 @@
 
 </div>
 </header>
-<div class="uk-container uk-container-small">
+<div class="uk-container uk-container-small uk-margin-top">
 <div class="uk-child-width-expand@s uk-text-center " uk-grid>
     <div>
-        <div class="uk-card uk-card-default uk-card-body">Item</div>
+    <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+                <img src="{!! asset('images/haustuer.jpg') !!}" alt="">
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
     </div>
     <div>
-        <div class="uk-card uk-card-default uk-card-body">Item</div>
+    <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+                <img src="{!! asset('images/haustuer.jpg') !!}" alt="">
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
     </div>
     <div>
-        <div class="uk-card uk-card-default uk-card-body">Item</div>
+    <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+                <img src="{!! asset('images/haustuer.jpg') !!}" alt="">
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
     </div>
 </div>
 </div>
