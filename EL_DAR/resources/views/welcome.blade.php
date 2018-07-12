@@ -40,7 +40,7 @@
                     {{ trans('messages.welcome') }}
                 </a></li>
             </ul>
-            
+        
         </div>
         
         </div>
@@ -143,30 +143,37 @@
 
     </div>
 </div>
-<div class="uk-grid" data-uk-grid-margin>
 
 
-                <div class="uk-width-medium-1-3">
-                    <div class="uk-panel uk-panel-box uk-panel-box-secondary">
-                        <h3 class="uk-panel-title">Contact Details</h3>
-                        <p>
-                            <strong>Company Name</strong>
-                            <br>Street, Country
-                            <br>Postal Zip Code
-                        </p>
-                        <p>
-                            <a>youremail@yourdomain.com</a>
-                            <br><a>@YourTwitterAccount</a><br>
-                            P+44 (0) 208 0000 000
-                        </p>
-                        <h3 class="uk-h4">Follow Us</h3>
-                        <p>
-                            <a href="#" class="uk-icon-button uk-icon-github"></a>
-                            <a href="#" class="uk-icon-button uk-icon-twitter"></a>
-                            <a href="#" class="uk-icon-button uk-icon-dribbble"></a>
-                            <a href="#" class="uk-icon-button uk-icon-html5"></a>
-                        </p>
-                    </div>
-                </div>
+
+<div class="uk-background-secondary ">
+
+<div class="uk-panel uk-container uk-container-small uk-padding uk-light">
+    <img class="uk-align-left uk-margin-remove-adjacent" src="{!! asset('images/b89b646324623c4c10ba7644e16a233a--white-kitchen-modern-modern-kitchens.jpg') !!}" width="225" height"150" alt="Example image">
+    <dl class="uk-description-list uk-description-list-divider uk-light">
+    <h3 style="color:white" class="uk-align-center">Contact Details</h3>
+    <dt style="color:white">Company Name</dt>
+    <dd>50 Abdelrehem street, Elshaqia</dd>
+    <dd>Z-226563</dd>
+    <dt style="color:white">E-mail</dt>
+    <dd>youremail@yourdomain.com </dd>
+    <dd>@YourTwitterAccount</dd>
+    <dt style="color:white">Phone</dt>
+    <dd>P+44 (0) 208 0000 000</dd>
+    <dd>+02 01555555258</dd>
+</dl>
+</div>
+</div>
+<footer class="uk-text-center uk-background-secondary ">
+    
+<a href="" class="uk-icon-button uk-margin-small-right " uk-icon="twitter"></a>
+<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="whatsapp"></a>
+<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="instagram"></a>
+<a href="" class="uk-icon-button uk-margin-small-right" uk-icon="google-plus"></a>
+<a href="" class="uk-icon-button uk-margin-larg-right"  uk-icon="chevron-up" uk-scroll></a>
+<p>© 2018 Agente</p>
+</footer>    
+
 @include('footer')
  
