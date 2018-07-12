@@ -23,8 +23,21 @@
             <ul class="uk-navbar-nav">
                 <li><a href="#">contact</a></li>
                 <li><a href="#">login</a></li>
+                <li><a>
+                    <form action="language" method="post">
+                        <select name="locale">
+                          <option value="ar">ar</option>
+                          <option value="en">en</option>
+                        </select>
+                        {{csrf_field()}}
+                    <input type="submit" value="Submit"></form>
+                    {{ trans('messages.welcome') }}
+                </a></li>
             </ul>
-        </div></div>
+            
+        </div>
+        
+        </div>
 
     </div>
 </nav>

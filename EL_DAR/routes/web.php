@@ -14,4 +14,7 @@
 Route::get('/', function () {
     return View::make('welcome');
 });
-
+Route::post('/language', array (
+    'Middleware'=>'LanguageSwitcher'
+    ,'uses'=>'LanguageController@index'
+));
