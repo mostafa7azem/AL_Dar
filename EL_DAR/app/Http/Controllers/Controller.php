@@ -20,11 +20,9 @@ class Controller extends BaseController
     function insert(Request $req){
         $obj_name = $req->input('name');
         $describition = $req->input("discreption");
-        if( $obj_name != null && $describition != null){
         $data = array('obj_name'=>$obj_name,'describition'=>$describition);
         DB::table('object')->insert($data);
         echo"succces";
-        }
     }
 
     function getdata(){
