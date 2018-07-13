@@ -5,16 +5,16 @@
 
         <div class="uk-navbar-center-left uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
-                <li ><a href="#">About</a></li>
+                <li ><a href="#">{{ trans('messages.About') }}</a></li>
                 <li>
-                    <a href="#">modern</a>
+                    <a href="#">{{ trans('messages.purchases') }}</a>
                     <div class="uk-navbar-dropdown uk-light uk-background-secondary">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#">door & window</a></li>
-                            <li><a href="#">kitchen</a></li>
-                            <li><a href="#">Tanda</a></li>
-                            <li><a href="#">library</a></li>
-                            <li><a href="#">Kitchen Hoods</a></li>
+                            <li><a href="#">{{ trans('messages.doorswindows') }}</a></li>
+                            <li><a href="#">{{ trans('messages.kitchens') }}</a></li>
+                            <li><a href="#">{{ trans('messages.tanda') }}</a></li>
+                            <li><a href="#">{{ trans('messages.liberary') }}</a></li>
+                            <li><a href="#">{{ trans('messages.kitchenhood') }}</a></li>
                             <li><a href="#">Dressing Room</a></li>
                             <li><a href="#">Bathroom sector</a></li>
                             <li><a href="#">Modern tables</a></li>
@@ -24,20 +24,19 @@
                 </li>
             </ul>
         </div></div>
-        <a class="uk-navbar-item uk-logo " href="#">ElDar</a>
+        <a class="uk-navbar-item uk-logo " href="#"><img src="{!! asset('images/36981931_1853667418012394_8883674462004707328_n.jpg') !!}" style="max-height:80px"></a>
         <div class="uk-navbar-center-right uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
-                <li><a href="#">contact</a></li>
-                <li><a href="#">login</a></li>
+                <li><a href="#">{{ trans('messages.contact') }}</a></li>
+                <li><a href="#">{{ trans('messages.login') }}</a></li>
                 <li><a>
                     <form action="language" method="post">
                         <select name="locale">
-                          <option value="ar">ar</option>
+                          <option value="ar" >ar</option>
                           <option value="en">en</option>
                         </select>
                         {{csrf_field()}}
                     <input type="submit" value="Submit"></form>
-                    {{ trans('messages.welcome') }}
                 </a></li>
             </ul>
         
@@ -68,7 +67,7 @@
         <li>
             <img src="{!! asset('images/kk.jpg') !!}" alt="" uk-cover>
             <div class="uk-position-center uk-position-small uk-text-center uk-light uk-overlay uk-overlay-primary">
-                <h2 class="uk-margin-remove">Kitchen</h2>
+                <h2 class="uk-margin-remove">{{ trans('messages.kitchens') }}</h2>
                 <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </li>
