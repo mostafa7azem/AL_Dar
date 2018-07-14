@@ -19,6 +19,30 @@ Route::get('/kitchen', function () {
 Route::get('/', function () {
     return View::make('welcome');
 });
+Route::get('/doorsandwindows', function () {
+    return View::make('doorandwindows');
+});
+Route::get('/tnd', function () {
+    return View::make('tnd');
+});
+Route::get('/libraries', function () {
+    return View::make('libarary');
+});
+Route::get('/kitchenhoods', function () {
+    return View::make('kitchenhoods');
+});
+Route::get('/dressingrooms', function () {
+    return View::make('dressingrooms');
+});
+Route::get('/Bathroomsector', function () {
+    return View::make('Bathroomsector');
+});
+Route::get('/builtindevices', function () {
+    return View::make('builtindevices');
+});
+Route::get('/moderntables', function () {
+    return View::make('moderntables');
+});
 route::post("/insert", "controller@insert");
 
 

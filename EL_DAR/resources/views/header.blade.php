@@ -21,15 +21,15 @@
                     <a href="#">{{ trans('messages.purchases') }}</a>
                     <div class="uk-navbar-dropdown uk-light uk-background-secondary">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#">{{ trans('messages.doorswindows') }}</a></li>
+                            <li><a href="/doorsandwindows">{{ trans('messages.doorswindows') }}</a></li>
                             <li><a href="/kitchen">{{ trans('messages.kitchens') }}</a></li>
-                            <li><a href="#">{{ trans('messages.tanda') }}</a></li>
-                            <li><a href="#">{{ trans('messages.liberary') }}</a></li>
-                            <li><a href="#">{{ trans('messages.kitchenhood') }}</a></li>
-                            <li><a href="#">{{ trans('messages.dressing') }}</a></li>
-                            <li><a href="#">{{ trans('messages.Bathroomsector') }}</a></li>
-                            <li><a href="#">{{ trans('messages.moderntables') }}</a></li>
-                            <li><a href="#">{{ trans('messages.builtindevices') }}</a></li>
+                            <li><a href="/tnd">{{ trans('messages.tanda') }}</a></li>
+                            <li><a href="/libraries">{{ trans('messages.liberary') }}</a></li>
+                            <li><a href="/kitchenhoods">{{ trans('messages.kitchenhood') }}</a></li>
+                            <li><a href="/dressingrooms">{{ trans('messages.dressing') }}</a></li>
+                            <li><a href="/Bathroomsector">{{ trans('messages.Bathroomsector') }}</a></li>
+                            <li><a href="/moderntables">{{ trans('messages.moderntables') }}</a></li>
+                            <li><a href="/builtindevices">{{ trans('messages.builtindevices') }}</a></li>
                         </ul>
                     </div>
                 </li>
