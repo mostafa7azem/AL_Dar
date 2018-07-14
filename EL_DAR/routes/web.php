@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', 'controller@getdata');
+#Route::get('/', 'controller@getdata');
 
 Route::get('/kitchen', function () {
     return View::make('kitchen');
+});
+Route::get('/', function () {
+    return View::make('welcome');
 });
 route::post("/insert", "controller@insert");
 

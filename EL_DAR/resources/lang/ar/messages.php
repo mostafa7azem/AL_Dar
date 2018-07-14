@@ -11,7 +11,18 @@ return [
     'kitchens'=>'المطابخ',
     'tanda'=>'تند',
     'liberary'=>'مكتبات',
-    'kitchenhood'=>'شفاطات'
-
+    'kitchenhood'=>'شفاطات',
+    'dressing'=>'غرف ملابس',
+    'windows'=>'شبابيك',
+    'Bathroomsector'=>'قطع حمام',
+    'builtindevices'=>'اجهزة built in',
+    'moderntables'=>'تربيزات مودرن',
+    'libraries'=>'مكتبات',
+    'doors'=>'ابواب',
+    'kitechendevices'=>'اجهزة مطبخ',
+    'accessories'=>'اكسسوارات',
+    'companyaddress'=>'عنوان  الشركة',
+    'email'=>'البريد الالكتروني ',
+    'phone'=>'التليفون'
 
 ];

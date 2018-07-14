@@ -12,6 +12,17 @@ return [
     'tanda'=>'tanda',
     'liberary'=>'liberaries',
     'kitchenhood'=>'kitchenhoods',
-    
+    'dressing'=>'dressing rooms',
+    'windows'=>'windows',
+    'Bathroomsector'=>'Bathroom sector',
+    'builtindevices'=>'built in devices',
+    'moderntables'=>'modern  tables',
+    'libraries'=>'libraries',
+    'doors'=>'doors',
+    'kitechendevices'=>'kitechendevices',
+    'accessories'=>'accessories',
+    'companyaddress'=>'company address',
+    'email'=>'E-mail',
+    'phone'=>'PHONE'
     
 ];
