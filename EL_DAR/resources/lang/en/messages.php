@@ -23,6 +23,10 @@ return [
     'accessories'=>'accessories',
     'companyaddress'=>'company address',
     'email'=>'E-mail',
-    'phone'=>'PHONE'
+    'phone'=>'PHONE',
+    'Alumital'=>'Alumital',
+    'khachmonium'=>'khachmonium',
+    'Acleric'=>'Acleric',
+    'PVC'=>'PVC',
     
 ];

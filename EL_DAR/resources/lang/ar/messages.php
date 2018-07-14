@@ -23,6 +23,10 @@ return [
     'accessories'=>'اكسسوارات',
     'companyaddress'=>'عنوان  الشركة',
     'email'=>'البريد الالكتروني ',
-    'phone'=>'التليفون'
+    'phone'=>'التليفون',
+    'Alumital'=>'الالوميتال',
+    'khachmonium'=>'خاشمنيوم',
+    'Acleric'=>'اكلاريك',
+    'PVC'=>'PVC',
 
 ];

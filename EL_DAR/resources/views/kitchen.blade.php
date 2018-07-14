@@ -6,16 +6,23 @@
 
         <ul class="uk-nav uk-nav-default" uk-switcher="connect: #component-nav; animation: uk-animation-fade; toggle: > :not(.uk-nav-header)">
         <li class="uk-active" uk-filter-control><a href="#">All</a></li>
-        <li uk-filter-control="[data-color='white']"><a href="#">White</a></li>
-        <li uk-filter-control="[data-color='blue']"><a href="#">Blue</a></li>
-        <li uk-filter-control="[data-color='black']"><a href="#">Black</a></li>
+        <li uk-filter-control="[data-color='Alumital']"><a href="#">{{ trans('messages.Alumital') }}</a></li>
+        <li uk-filter-control="[data-color='khachmonium']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li uk-filter-control="[data-color='Acleric']"><a href="#">{{ trans('messages.Acleric') }}</a></li>
+        <li uk-filter-control="[data-color='PVC']"><a href="#">{{ trans('messages.PVC') }}</a></li>
+        <li uk-filter-control="[data-color='blue']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li uk-filter-control="[data-color='black']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li uk-filter-control="[data-color='white']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li uk-filter-control="[data-color='blue']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li uk-filter-control="[data-color='black']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li uk-filter-control="[data-color='white']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
         </ul>
 
     </div>
     <div class="uk-width-expand@m">
 
         <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
-        <li data-color="white">
+        <li data-color="Alumital">
             <a class="uk-link-reset" href="#modal-full" uk-toggle>
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
@@ -28,7 +35,7 @@
         </div>
             </a>
         </li>
-        <li data-color="blue">
+        <li data-color="khachmonium">
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src="{!! asset('images/71mwlDgJpfL._SX679_.jpg') !!}" alt="">
@@ -39,7 +46,7 @@
             </div>
         </div>
         </li>
-        <li data-color="white">
+        <li data-color="Acleric">
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src="{!! asset('images/lg-appliances-package-awesome-like-sears-appliance-package-awesome-lg-kitchen-appliance-sets-buy-home-of-lg-appliances-package.jpg') !!}" alt="">
@@ -50,7 +57,7 @@
             </div>
         </div>
         </li>
-        <li data-color="white">
+        <li data-color="PVC">
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src="{!! asset('images/lg-appliances-package-awesome-like-sears-appliance-package-awesome-lg-kitchen-appliance-sets-buy-home-of-lg-appliances-package.jpg') !!}" alt="">
