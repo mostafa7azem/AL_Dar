@@ -12,7 +12,9 @@
     <input  type="submit" name="submit" value="submit">
 </form>
 
-
+@foreach($data as $value)
+    {{ $value->obj_name }}
+@endforeach
 
 @include('footer')
 

@@ -13,5 +13,13 @@
 
 Route::get('/', 'controller@getdata');
 
-route::post("/insert","controller@insert");
+Route::get('/kitchen', function () {
+    return View::make('kitchen');
+});
+route::post("/insert", "controller@insert");
 
+
+Route::post('/language', array (
+    'Middleware'=>'LanguageSwitcher'
+    ,'uses'=>'LanguageController@index'
+));

@@ -17,14 +17,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    function insert(Request $req){
-        $obj_name = $req->input('name');
-        $describition = $req->input("discreption");
-        $data = array('obj_name'=>$obj_name,'describition'=>$describition);
-        DB::table('object')->insert($data);
-        echo"succces";
-    }
-
     function getdata(){
         $data['data']=DB::table('object')->get();
         if(count($data)>0){
@@ -34,4 +26,19 @@ class Controller extends BaseController
             return view('add');
         }
     }
+    function insert(Request $req){
+        $obj_name = $req->input('name');
+        $describition = $req->input("discreption");
+        $data = array('obj_name'=>$obj_name,'describition'=>$describition);
+        DB::table('object')->insert($data);
+        $data['data']=DB::table('object')->get();
+        if(count($data)>0){
+            return view('add',$data);
+        }
+        else{
+            return view('add');
+        }
+    }
+
+    
 }
