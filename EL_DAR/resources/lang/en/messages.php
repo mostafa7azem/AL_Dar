@@ -28,5 +28,11 @@ return [
     'khachmonium'=>'khachmonium',
     'Acleric'=>'Acleric',
     'PVC'=>'PVC',
+    'HPL'=>'HPL',
+    'LAMIGLOSS'=>'LAMIGLOSS',
+    'highgloss'=>'highgloss',
+    'powergloss'=>'powergloss',
+    'polylac'=>'polylac',
+
     
 ];

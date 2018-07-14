@@ -10,12 +10,12 @@
         <li uk-filter-control="[data-color='khachmonium']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
         <li uk-filter-control="[data-color='Acleric']"><a href="#">{{ trans('messages.Acleric') }}</a></li>
         <li uk-filter-control="[data-color='PVC']"><a href="#">{{ trans('messages.PVC') }}</a></li>
-        <li uk-filter-control="[data-color='blue']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
-        <li uk-filter-control="[data-color='black']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
-        <li uk-filter-control="[data-color='white']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
-        <li uk-filter-control="[data-color='blue']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
-        <li uk-filter-control="[data-color='black']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
-        <li uk-filter-control="[data-color='white']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li uk-filter-control="[data-color='HPL']"><a href="#">{{ trans('messages.HPL') }}</a></li>
+        <li uk-filter-control="[data-color='LAMIGLOSS']"><a href="#">{{ trans('messages.LAMIGLOSS') }}</a></li>
+        <li uk-filter-control="[data-color='HighGloss']"><a href="#">{{ trans('messages.highgloss') }}</a></li>
+        <li uk-filter-control="[data-color='powergloss']"><a href="#">{{ trans('messages.powergloss') }}</a></li>
+        <li uk-filter-control="[data-color='polylac']"><a href="#">{{ trans('messages.polylac') }}</a></li>
+        <li uk-filter-control="[data-color='----']"><a href="#">{{ trans('messages.-----') }}</a></li>
         </ul>
 
     </div>
@@ -34,119 +34,6 @@
             </div>
         </div>
             </a>
-        </li>
-        <li data-color="khachmonium">
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="{!! asset('images/71mwlDgJpfL._SX679_.jpg') !!}" alt="">
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Kitchen Hood</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-        </li>
-        <li data-color="Acleric">
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="{!! asset('images/lg-appliances-package-awesome-like-sears-appliance-package-awesome-lg-kitchen-appliance-sets-buy-home-of-lg-appliances-package.jpg') !!}" alt="">
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">kitchen devices</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-        </li>
-        <li data-color="PVC">
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="{!! asset('images/lg-appliances-package-awesome-like-sears-appliance-package-awesome-lg-kitchen-appliance-sets-buy-home-of-lg-appliances-package.jpg') !!}" alt="">
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">kitchen devices</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-        </li>
-        <li data-color="black">
-        <div class="uk-card uk-card-default uk-card-secondary">
-            <div class="uk-inline uk-card-media-top ">
-                <img class="uk-height-small" src="{!! asset('images/Baskets_3.jpg') !!}" alt="">
-                <p>Default Lorem ipsum</p>
-            
-            </div>
-    </div>
-        </li>
-        <li data-color="black">
-        <div class="uk-card uk-card-default uk-card-secondary">
-            <div class="uk-inline uk-card-media-top ">
-                <img class="uk-height-small" src="{!! asset('images/Baskets_3.jpg') !!}" alt="">
-                <p>Default Lorem ipsum</p>
-            
-            </div>
-    </div>
-        </li>
-        <li data-color="blue">
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="{!! asset('images/71mwlDgJpfL._SX679_.jpg') !!}" alt="">
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Kitchen Hood</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-        </li>
-        <li data-color="black">
-        <div class="uk-card uk-card-default uk-card-secondary">
-            <div class="uk-inline uk-card-media-top ">
-                <img class="uk-height-small" src="{!! asset('images/Baskets_3.jpg') !!}" alt="">
-                <p>Default Lorem ipsum</p>
-            
-            </div>
-    </div>
-        </li>
-        <li data-color="blue">
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="{!! asset('images/71mwlDgJpfL._SX679_.jpg') !!}" alt="">
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Kitchen Hood</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-        </li>
-        <li data-color="white">
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="{!! asset('images/lg-appliances-package-awesome-like-sears-appliance-package-awesome-lg-kitchen-appliance-sets-buy-home-of-lg-appliances-package.jpg') !!}" alt="">
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">kitchen devices</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-        </li>
-        <li data-color="blue">
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="{!! asset('images/71mwlDgJpfL._SX679_.jpg') !!}" alt="">
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Kitchen Hood</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-        </li>
-        <li data-color="black">
-        <div class="uk-card uk-card-default uk-card-secondary">
-            <div class="uk-inline uk-card-media-top ">
-                <img class="uk-height-small" src="{!! asset('images/Baskets_3.jpg') !!}" alt="">
-                <p>Default Lorem ipsum</p>
-            
-            </div>
-    </div>
         </li>
     </ul>
     </div>

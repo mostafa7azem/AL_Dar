@@ -28,5 +28,10 @@ return [
     'khachmonium'=>'خاشمنيوم',
     'Acleric'=>'اكلاريك',
     'PVC'=>'PVC',
+    'HPL'=>'HPL',
+    'LAMIGLOSS'=>'لامي جلوس',
+    'highgloss'=>'هاي جلوس',
+    'powergloss'=>'باور جلوس',
+    'polylac'=>'بولي لاك',
 
 ];

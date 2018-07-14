@@ -22,7 +22,7 @@
                     <div class="uk-navbar-dropdown uk-light uk-background-secondary">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
                             <li><a href="#">{{ trans('messages.doorswindows') }}</a></li>
-                            <li><a href="#">{{ trans('messages.kitchens') }}</a></li>
+                            <li><a href="/kitchen">{{ trans('messages.kitchens') }}</a></li>
                             <li><a href="#">{{ trans('messages.tanda') }}</a></li>
                             <li><a href="#">{{ trans('messages.liberary') }}</a></li>
                             <li><a href="#">{{ trans('messages.kitchenhood') }}</a></li>
@@ -35,7 +35,7 @@
                 </li>
             </ul>
         </div></div>
-        <a class="uk-navbar-item uk-logo " href="#"><img src="{!! asset('images/36981931_1853667418012394_8883674462004707328_n.jpg') !!}" style="max-height:80px"></a>
+        <a class="uk-navbar-item uk-logo " href="/"><img src="{!! asset('images/36981931_1853667418012394_8883674462004707328_n.jpg') !!}" style="max-height:80px"></a>
         <div class="uk-navbar-center-right uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
                 <li><a href="#">{{ trans('messages.contact') }}</a></li>
