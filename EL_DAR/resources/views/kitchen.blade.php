@@ -1,5 +1,7 @@
 @include('header')
+
 <div class="k uk-padding">
+
 <?php
 if(isset($data)){
 $date = json_decode(json_encode($data),true);
@@ -18,7 +20,8 @@ foreach($date as $one){
 
 $count1 = $count;
 ?>
-<div class="uk-container uk-container-large uk-margin">
+<div class="uk-background-cover uk-background-fixed uk-background-center-cente" style="background-image: url({!! asset('images/kitchen-cabinet-doors-replacement-gallery-kitchens-white.jpg') !!});height:100vh;">
+<div class="uk-container uk-container-large uk-margin ">
 <div uk-filter="target: .js-filter">
 <div uk-grid>
     <div class="uk-width-small@m">
@@ -38,7 +41,7 @@ $count1 = $count;
         </ul>
 
     </div>
-    <div class="uk-width-expand@m">
+    <div class="uk-width-expand@m uk-margin-top">
 
         <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
         <?php
