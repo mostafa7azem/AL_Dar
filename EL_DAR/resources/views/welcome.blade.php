@@ -53,7 +53,7 @@
     <div>
     <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src="{!! asset('images/lg-appliances-package-awesome-like-sears-appliance-package-awesome-lg-kitchen-appliance-sets-buy-home-of-lg-appliances-package.jpg') !!}" alt="">
+                <img src="{!! asset('images/l_10145837_002.jpg') !!}" alt="">
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">{{ trans('messages.kitechendevices') }}</h3>
