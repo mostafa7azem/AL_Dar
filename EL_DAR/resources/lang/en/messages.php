@@ -3,7 +3,7 @@
 return [
     'welcome' => 'Welcome to our application',
     'About'=>'About',
-    'purchases'=>'purchases',
+    'purchases'=>'products',
     'eldar'=>'EL DAR',
     'contact'=>'contact us',
     'login'=>'login',
