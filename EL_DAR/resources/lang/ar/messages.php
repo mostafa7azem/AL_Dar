@@ -33,5 +33,6 @@ return [
     'highgloss'=>'هاي جلوس',
     'powergloss'=>'باور جلوس',
     'polylac'=>'بولي لاك',
+    'logout'=>'تسجيل الخروج'
 
 ];

@@ -22,7 +22,8 @@ Route::get('/', function () {
     return View::make('welcome');
 });
 route::post("/insert", "controller@insert");
-
+route::post("/loginme", "loginController@login");
+Route::post("/logout","loginController@logout");
 
 Route::post('/language', array (
     'Middleware'=>'LanguageSwitcher'

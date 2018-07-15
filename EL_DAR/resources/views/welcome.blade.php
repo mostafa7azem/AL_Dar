@@ -90,9 +90,9 @@
     </div>
 </div>
 </div>
-<div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top uk-margin-top " style="background-image: url({!! asset('images/picture-of-modern-kitchen-design-dark-grey-floor-tiles-lovely.jpg') !!});">
+<div id="vision"class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top uk-margin-top " style="background-image: url({!! asset('images/picture-of-modern-kitchen-design-dark-grey-floor-tiles-lovely.jpg') !!});">
     <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical uk-light uk-overlay uk-overlay-primary" style="height:100%; width:100%">
-        <h1 uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1; viewport: 0.5;" style="margin-top:10%">{{ trans('messages.About') }}</h1>
+        <h1 uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1; viewport: 0.5;" style="margin-top:10%" >{{ trans('messages.About') }}</h1>
         <p uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; viewport: 0.5;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     </div>
@@ -102,7 +102,7 @@
 
 <div class="uk-background-secondary ">
 
-<div class="uk-panel uk-container uk-container-small uk-padding uk-light">
+<div class="uk-panel uk-container uk-container-small uk-padding uk-light"id="contact">
     <img class="uk-align-left uk-margin-remove-adjacent" src="{!! asset('images/b89b646324623c4c10ba7644e16a233a--white-kitchen-modern-modern-kitchens.jpg') !!}" width="225" height"150" alt="Example image">
     <dl class="uk-description-list uk-description-list-divider uk-light">
     <h3 style="color:white" class="uk-align-center">{{ trans('messages.contact') }}</h3>

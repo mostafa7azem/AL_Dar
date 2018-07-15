@@ -33,6 +33,6 @@ return [
     'highgloss'=>'highgloss',
     'powergloss'=>'powergloss',
     'polylac'=>'polylac',
-
+'logout'=>'log out'
     
 ];

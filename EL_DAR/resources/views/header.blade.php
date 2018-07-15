@@ -16,7 +16,7 @@
 
         <div class="uk-navbar-center-left uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
-                <li ><a href="#">{{ trans('messages.About') }}</a></li>
+                <li ><a href="/#vision">{{ trans('messages.About') }}</a></li>
                 <li>
                     <a href="#">{{ trans('messages.purchases') }}</a>
                     <div class="uk-navbar-dropdown uk-light uk-background-secondary">
@@ -38,10 +38,22 @@
         <a class="uk-navbar-item uk-logo " href="/"><img src="{!! asset('images/36981931_1853667418012394_8883674462004707328_n.jpg') !!}" style="max-height:80px"></a>
         <div class="uk-navbar-center-right uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
-                <li><a href="#">{{ trans('messages.contact') }}</a></li>
-                <li><a href="#modal-sections" uk-toggle>{{ trans('messages.login') }}</a></li>
+                <li><a href="/#contact">{{ trans('messages.contact') }}</a></li>
+                <?php
+                $value = session('login');
+                if($value=="admin"){?><li><a>
+                    <form action="/logout" method="post">
+                        {{csrf_field()}}
+                    <input type="submit" value="LOGOUT"></form>
+                </a></li><?php
+                    
+                }
+                if($value!="admin"){
+                    echo'<li><a href="#modal-sections" uk-toggle>'.__('messages.login').'</a></li>';
+                }
+                ?>
                 <li><a>
-                    <form action="language" method="post">
+                    <form action="/language" method="post">
                         <select name="locale">
                           <option value="ar" >ar</option>
                           <option value="en">en</option>
@@ -72,11 +84,12 @@
                     <div class="uk-form-row">
                         <input class="uk-width-1-1 uk-form-large uk-margin-top" name="password" type="password" placeholder="Password">
                     </div>
+                    <button class="uk-button uk-button-primary uk-margin-top uk-margin-left" type="submit" name="login" value="Login">{{ trans('messages.login') }}</button>
                 </form>
         </div>
         <div class="uk-modal-footer uk-text-right">
             <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
-            <button class="uk-button uk-button-primary" type="submit" name="login" value="Login">{{ trans('messages.login') }}</button>
+           
         </div>
     </div>
 </div>
