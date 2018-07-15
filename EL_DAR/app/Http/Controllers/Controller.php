@@ -10,35 +10,36 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Request;
-
+use Illuminate\support\Collection;
+use App\Http\Controllers\controller;
 use DB;
+use stdClass;
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
+  
     function getdata(){
-        $data['data']=DB::table('object')->get();
-        if(count($data)>0){
-            return view('add',$data);
-        }
-        else{
-            return view('add');
-        }
-    }
-    function insert(Request $req){
-        $obj_name = $req->input('name');
-        $describition = $req->input("discreption");
-        $data = array('obj_name'=>$obj_name,'describition'=>$describition);
-        DB::table('object')->insert($data);
-        $data['data']=DB::table('object')->get();
-        if(count($data)>0){
-            return view('add',$data);
-        }
-        else{
-            return view('add');
-        }
-    }
+        $data['data']=DB::table('products')->where("type","Bathroom sector")->get();
+        $alldata = array();
+        $count =0;
+        
+        $data=$data['data']->toArray();
+        $data = json_decode(json_encode($data),true);
+        foreach($data as $one){
+            $images['data']=DB::table('products_photos')->where("product_id",$one['id'])->get();
+            $images=$images['data']->toArray();
+            $images = json_decode(json_encode($images),true);
+            $alldata[$count][0]=$data;
+            $alldata[$count][1]=$images;
+            $count++;
 
+        }
+       
+           
+        return view('Bathroomsector',compact($alldata));
+    
+    }
+    
     
 }

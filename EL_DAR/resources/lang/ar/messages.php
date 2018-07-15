@@ -33,6 +33,13 @@ return [
     'highgloss'=>'هاي جلوس',
     'powergloss'=>'باور جلوس',
     'polylac'=>'بولي لاك',
+    'kitchen Alumital'=>'مطبخ الوميتال',
+    'doorswindows PVC'=>'ابواب و شبابيك PVC',
+    'kitchen PVC'=>'مطبخ PVC',
+    'doorswindows Alumital'=>'ابواب و شبابيك الوميتال',
+    'dressingroom'=>'غرفة ملابس',
     'logout'=>'تسجيل الخروج'
+
+
 
 ];

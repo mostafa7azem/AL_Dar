@@ -1,4 +1,9 @@
 @include('header')
+<?php
+foreach($alldata as $one){
+    print_r($one);
+}
+?>
 <div class="uk-container uk-container-large uk-margin">
 <div uk-filter="target: .js-filter">
 <div uk-grid>

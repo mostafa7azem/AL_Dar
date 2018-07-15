@@ -44,9 +44,7 @@ Route::get('/doorsandwindows', function () {
     Route::get('/dressingrooms', function () {
         return View::make('dressingrooms');
     });
-    Route::get('/Bathroomsector', function () {
-        return View::make('Bathroomsector');
-    });
+    Route::get('/Bathroomsector', 'controller@getdata');
     Route::get('/builtindevices', function () {
         return View::make('builtindevices');
     });
