@@ -138,7 +138,7 @@ class Controller extends BaseController
         }
         
            
-        return view('libraries',$data);
+        return view('libarary',$data);
     
     }
     function getkitchen(){

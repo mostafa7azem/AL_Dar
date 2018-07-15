@@ -56,6 +56,8 @@ Route::get('/doorsandwindows', function () {
     Route::get('/kitchenhoods', 'controller@getkitchenhoods');
     Route::get('/libraries', 'controller@getlibraries');
     Route::get('/moderntables', 'controller@getmoderntables');
+    Route::get('/tnd', 'controller@gettnd');
+
 
 
     Route::get('/builtindevices', function () {

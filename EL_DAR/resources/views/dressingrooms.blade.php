@@ -1,4 +1,5 @@
 @include('header')
+<div class="dr uk-padding">
 <?php
 if(isset($data)){
 $date = json_decode(json_encode($data),true);
@@ -118,4 +119,5 @@ $count1 = $count;
 <?php
 }
 ?>
+</div>
 @include('footer')
