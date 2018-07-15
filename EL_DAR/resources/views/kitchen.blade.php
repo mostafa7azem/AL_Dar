@@ -1,7 +1,5 @@
 @include('header')
-
 <div class="k uk-padding">
-
 <?php
 if(isset($data)){
 $date = json_decode(json_encode($data),true);
@@ -20,28 +18,27 @@ foreach($date as $one){
 
 $count1 = $count;
 ?>
-<div class="uk-background-cover uk-background-fixed uk-background-center-cente" style="background-image: url({!! asset('images/kitchen-cabinet-doors-replacement-gallery-kitchens-white.jpg') !!});height:100vh;">
-<div class="uk-container uk-container-large uk-margin ">
+<div class="uk-container uk-container-large uk-margin">
 <div uk-filter="target: .js-filter">
 <div uk-grid>
     <div class="uk-width-small@m">
 
         <ul class="uk-nav uk-nav-default" uk-switcher="connect: #component-nav; animation: uk-animation-fade; toggle: > :not(.uk-nav-header)">
-        <li class="uk-active" uk-filter-control><a href="#">All</a></li>
-        <li uk-filter-control="[data-color='Alumital']"><a href="#">{{ trans('messages.Alumital') }}</a></li>
-        <li uk-filter-control="[data-color='khachmonium']"><a href="#">{{ trans('messages.khachmonium') }}</a></li>
-        <li uk-filter-control="[data-color='Acleric']"><a href="#">{{ trans('messages.Acleric') }}</a></li>
-        <li uk-filter-control="[data-color='PVC']"><a href="#">{{ trans('messages.PVC') }}</a></li>
-        <li uk-filter-control="[data-color='HPL']"><a href="#">{{ trans('messages.HPL') }}</a></li>
-        <li uk-filter-control="[data-color='LAMIGLOSS']"><a href="#">{{ trans('messages.LAMIGLOSS') }}</a></li>
-        <li uk-filter-control="[data-color='HighGloss']"><a href="#">{{ trans('messages.highgloss') }}</a></li>
-        <li uk-filter-control="[data-color='powergloss']"><a href="#">{{ trans('messages.powergloss') }}</a></li>
-        <li uk-filter-control="[data-color='polylac']"><a href="#">{{ trans('messages.polylac') }}</a></li>
-        <li uk-filter-control="[data-color='----']"><a href="#">{{ trans('messages.-----') }}</a></li>
+        <li class="uk-active uk-text-large" uk-filter-control><a style="color:black;"href="#">All</a></li>
+        <li class="uk-text-large " uk-filter-control="[data-color='Alumital']"><a style="color:black;"style="color:black;" href="#">{{ trans('messages.Alumital') }}</a></li>
+        <li class="uk-text-large " uk-filter-control="[data-color='khachmonium']"><a style="color:black;"href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li class="uk-text-large " uk-filter-control="[data-color='Acleric']"><a style="color:black;"href="#">{{ trans('messages.Acleric') }}</a></li>
+        <li class="uk-text-large" uk-filter-control="[data-color='PVC']"><a style="color:black;"href="#">{{ trans('messages.PVC') }}</a></li>
+        <li class="uk-text-large" uk-filter-control="[data-color='HPL']"><a style="color:black;"href="#">{{ trans('messages.HPL') }}</a></li>
+        <li class="uk-text-large" uk-filter-control="[data-color='LAMIGLOSS']"><a style="color:black;"href="#">{{ trans('messages.LAMIGLOSS') }}</a></li>
+        <li class="uk-text-large" uk-filter-control="[data-color='HighGloss']"><a style="color:black;"href="#">{{ trans('messages.highgloss') }}</a></li>
+        <li class="uk-text-large" uk-filter-control="[data-color='powergloss']"><a style="color:black;"href="#">{{ trans('messages.powergloss') }}</a></li>
+        <li class="uk-text-large" uk-filter-control="[data-color='polylac']"><a style="color:black;"href="#">{{ trans('messages.polylac') }}</a></li>
+        <li class="uk-text-large" uk-filter-control="[data-color='----']"><a style="color:black;"href="#">{{ trans('messages.-----') }}</a></li>
         </ul>
 
     </div>
-    <div class="uk-width-expand@m uk-margin-top">
+    <div class="uk-width-expand@m">
 
         <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
         <?php
@@ -73,7 +70,7 @@ $count1 = $count;
         ?>
         <li data-color="<?php echo $type;?>">
 
-            <a class="uk-link-reset" href="#<?php echo "momo".$date[$l]["id"];?>" uk-toggle>
+            <a style="color:black;"class="uk-link-reset" href="#<?php echo "momo".$date[$l]["id"];?>" uk-toggle>
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top ">
                 <img class="uk-height-medium" src="<?php echo "storage/".$date[$count][0]["filename"];?>" alt="" >
@@ -124,7 +121,7 @@ $count1 = $count;
 
                     
                 ?>
-            <li uk-slideshow-item="<?php echo $co; ?>"><a href="#"><img src="<?php echo "storage/".$imag["filename"];?>" width="100" alt=""></a></li>
+            <li uk-slideshow-item="<?php echo $co; ?>"><a style="color:black;"href="#"><img src="<?php echo "storage/".$imag["filename"];?>" width="100" alt=""></a></li>
             <?php
             $co++;
             }

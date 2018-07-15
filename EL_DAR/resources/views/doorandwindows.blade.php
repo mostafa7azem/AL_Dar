@@ -24,9 +24,9 @@ $count1 = $count;
     <div class="uk-width-small@m">
 
         <ul class="uk-nav uk-nav-default" uk-switcher="connect: #component-nav; animation: uk-animation-fade; toggle: > :not(.uk-nav-header)">
-        <li class="uk-active" uk-filter-control><a href="#">All</a></li>
-        <li uk-filter-control="[data-color='Alumital']"><a href="#">{{ trans('messages.Alumital') }}</a></li>
-        <li uk-filter-control="[data-color='PVC']"><a href="#">{{ trans('messages.PVC') }}</a></li>
+        <li class="uk-active uk-text-large" uk-filter-control><a style="color:black;"href="#">All</a></li>
+        <li  class="uk-text-large" uk-filter-control="[data-color='Alumital']"><a style="color:black;"href="#">{{ trans('messages.Alumital') }}</a></li>
+        <li class="uk-text-large"  uk-filter-control="[data-color='PVC']"><a style="color:black;"href="#">{{ trans('messages.PVC') }}</a></li>
         </ul>
 
     </div>
@@ -44,7 +44,7 @@ $count1 = $count;
         ?>
         <li data-color="<?php echo $type;?>">
 
-            <a class="uk-link-reset" href="#<?php echo "momo".$date[$l]["id"];?>" uk-toggle>
+            <a style="color:black;"class="uk-link-reset" href="#<?php echo "momo".$date[$l]["id"];?>" uk-toggle>
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top ">
                 <img class="uk-height-medium" src="<?php echo "storage/".$date[$count][0]["filename"];?>" alt="" >
@@ -95,7 +95,7 @@ $count1 = $count;
 
                     
                 ?>
-            <li uk-slideshow-item="<?php echo $co; ?>"><a href="#"><img src="<?php echo "storage/".$imag["filename"];?>" width="100" alt=""></a></li>
+            <li uk-slideshow-item="<?php echo $co; ?>"><a style="color:black;"href="#"><img src="<?php echo "storage/".$imag["filename"];?>" width="100" alt=""></a></li>
             <?php
             $co++;
             }

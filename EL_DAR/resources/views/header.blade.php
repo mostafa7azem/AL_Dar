@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
+        body{
+            font-family: 'Raleway', sans-serif;
+        }
         .bg{
             height: 100vh;
             background: url("{!! asset('images/bathroomtrend2.jpg') !!}") no-repeat center center fixed; 
@@ -72,6 +75,13 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+        }
+        li{
+            font-style: oblique;
+            
+        }
+        .a{
+            color:black;
         }
         </style>
         <title>EL DAR</title>
