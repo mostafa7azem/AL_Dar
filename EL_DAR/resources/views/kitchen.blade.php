@@ -1,5 +1,6 @@
 @include('header')
-<div class="uk-container uk-container-large uk-margin">
+<div class="uk-background-cover uk-background-fixed uk-background-center-cente" style="background-image: url({!! asset('images/kitchen-cabinet-doors-replacement-gallery-kitchens-white.jpg') !!});height:100vh;width:100vh;">
+<div class="uk-background-cover uk-container uk-container-large uk-margin ">
 <div uk-filter="target: .js-filter">
 <div uk-grid>
     <div class="uk-width-small@m">
@@ -42,7 +43,7 @@
 </div>
 
 </div>
-
+</div>
 <div id="modal-full" class="uk-modal-full" uk-modal>
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
