@@ -1,4 +1,5 @@
 @include('header')
+<div class="bg uk-padding">
 <?php
 if(isset($data)){
 $date = json_decode(json_encode($data),true);
@@ -16,7 +17,7 @@ foreach($date as $one){
 
 $count1 = $count;
 ?>
-<div class="uk-container uk-container-large uk-margin">
+<div class="uk-container uk-container-large ">
 <div uk-filter="target: .js-filter">
 <div uk-grid>
     <div class="uk-width-small@m">
@@ -118,4 +119,5 @@ $count1 = $count;
 <?php
 }
 ?>
+</div>
 @include('footer')

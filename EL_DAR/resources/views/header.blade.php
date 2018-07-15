@@ -4,7 +4,76 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <style>
+        .bg{
+            height: 100vh;
+            background: url("{!! asset('images/bathroomtrend2.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .k{
+            height: 100vh;
+            background: url("{!! asset('images/8a4cafb5d3f8bbeb3b089710e785c148f23a303c-310318213957.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .dw{
+            height: 100vh;
+            background: url("{!! asset('images/windows-doors-los-angeles.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .bi{
+            height: 100vh;
+            background: url("{!! asset('images/uk-pfs-ha-UK_PFS_HA_5J.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .dr{
+            height: 100vh;
+            background: url("{!! asset('images/20160222-4885-storage_dressing_14.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }.kh{
+            height: 100vh;
+            background: url("{!! asset('images/omega-kitchen-hoods-04.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }.li{
+            height: 100vh;
+            background: url("{!! asset('images/modern-homes-interior-home-library-office-design.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }.tn{
+            height: 100vh;
+            background: url("{!! asset('images/8.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }.mo{
+            height: 100vh;
+            background: url("{!! asset('images/Add-Unique-Oak-Coffee-Table-with-Storage-and-Glass-Top-on-Grey-Carpet-Rug-near-Wooden-Cabinet.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        </style>
         <title>EL DAR</title>
         <link rel="stylesheet" href="{!! asset('css/uikit.min.css') !!}" />
 

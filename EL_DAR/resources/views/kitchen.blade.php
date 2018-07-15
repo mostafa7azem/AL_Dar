@@ -1,6 +1,6 @@
 @include('header')
 
-
+<div class="k uk-padding">
 
 <?php
 if(isset($data)){
@@ -155,6 +155,7 @@ $count1 = $count;
 <?php
 }
 ?>
+</div>
 @include('footer')
 
 
