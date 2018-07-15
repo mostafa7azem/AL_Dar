@@ -33,6 +33,12 @@ return [
     'highgloss'=>'highgloss',
     'powergloss'=>'powergloss',
     'polylac'=>'polylac',
-'logout'=>'log out'
+    'kitchen Alumital'=>'kitchen Alumital',
+    'doorswindows PVC'=>'doorswindows PVC',
+    'kitchen PVC'=>'kitchen PVC',
+    'doorswindows Alumital'=>'doorswindows Alumital',
+    'dressingroom'=>'dressingroom',
+    'logout'=>'log out',
+    "add"=>"add"
     
 ];
