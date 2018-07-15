@@ -27,7 +27,7 @@
             </div>
         </li>
         <li>
-            <img src="{!! asset('images/create_home_library_03.jpg') !!}" alt="" uk-cover>
+            <img src="{!! asset('images/modern-homes-interior-home-library-office-design.jpg') !!}" alt="" uk-cover>
             <div class="uk-position-center uk-position-small uk-text-center uk-light uk-overlay uk-overlay-primary">
                 <h2 class="uk-margin-remove">{{ trans('messages.libraries') }}</h2>
                 <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

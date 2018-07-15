@@ -7,7 +7,7 @@ return [
     'eldar'=>'EL DAR',
     'contact'=>'contact us',
     'login'=>'login',
-    'doorswindows'=>'doors&windows',
+    'doorswindows'=>'doors & windows',
     'kitchens'=>'kitchens',
     'tanda'=>'tanda',
     'liberary'=>'liberaries',
