@@ -29,7 +29,7 @@
                             <li><a href="/dressingrooms">{{ trans('messages.dressing') }}</a></li>
                             <li><a href="/Bathroomsector">{{ trans('messages.Bathroomsector') }}</a></li>
                             <li><a href="/moderntables">{{ trans('messages.moderntables') }}</a></li>
-                            <li><a href="/builtindevices">{{ trans('messages.builtindevices') }}</a></li>
+                            <li><a href="#">{{ trans('messages.builtindevices') }}</a></li>
                         </ul>
                     </div>
                 </li>
@@ -39,7 +39,7 @@
         <div class="uk-navbar-center-right uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
                 <li><a href="#">{{ trans('messages.contact') }}</a></li>
-                <li><a href="#">{{ trans('messages.login') }}</a></li>
+                <li><a href="#modal-sections" uk-toggle>{{ trans('messages.login') }}</a></li>
                 <li><a>
                     <form action="language" method="post">
                         <select name="locale">
@@ -57,3 +57,26 @@
 
     </div>
 </nav>
+<div id="modal-sections" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">{{ trans('messages.login') }}</h2>
+        </div>
+        <div class="uk-modal-body">
+        <form class="uk-panel uk-panel-box uk-form" action="/loginme" method="post">
+                    <input type="hidden" name="_token" value="{{ csrf_token()}}">
+                    <div class="uk-form-row">
+                        <input class="uk-width-1-1 uk-form-large" type="text" name="username" placeholder="Username">
+                    </div>
+                    <div class="uk-form-row">
+                        <input class="uk-width-1-1 uk-form-large uk-margin-top" name="password" type="password" placeholder="Password">
+                    </div>
+                </form>
+        </div>
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+            <button class="uk-button uk-button-primary" type="submit" name="login" value="Login">{{ trans('messages.login') }}</button>
+        </div>
+    </div>
+</div>
