@@ -107,7 +107,6 @@
         <div class="uk-navbar-center-right uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
                 <li><a href="/#contact">{{ trans('messages.contact') }}</a></li>
-                <li><a href="/upload">{{ trans('messages.add') }}</a></li>
                 
                 <?php
                 $value = session('login');
@@ -117,7 +116,7 @@
 
                     <input type="submit" value="LOGOUT"></form>
                 </a></li>
-                
+                <li><a href="/upload">{{ trans('messages.add') }}</a></li>
                 <?php
                     
                 }
