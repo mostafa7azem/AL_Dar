@@ -21,23 +21,17 @@ class Controller extends BaseController
   
     function getdata(){
         $data['data']=DB::table('products')->where("type","Bathroom sector")->get();
-        $alldata = array();
-        $count =0;
+        $alldata = $data;    
+        $date=$data['data']->toArray();
+        $date = json_decode(json_encode($date),true);
         
-        $data=$data['data']->toArray();
-        $data = json_decode(json_encode($data),true);
-        foreach($data as $one){
+        foreach($date as $one){
             $images['data']=DB::table('products_photos')->where("product_id",$one['id'])->get();
-            $images=$images['data']->toArray();
-            $images = json_decode(json_encode($images),true);
-            $alldata[$count][0]=$data;
-            $alldata[$count][1]=$images;
-            $count++;
-
+            $data['data']->push($images['data']);
         }
-       
+        
            
-        return view('Bathroomsector',compact($alldata));
+        return view('Bathroomsector',$data);
     
     }
     

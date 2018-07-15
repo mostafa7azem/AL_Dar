@@ -1,7 +1,9 @@
 @include('header')
 <?php
-foreach($alldata as $one){
+$date = json_decode(json_encode($data),true);
+foreach($date as $one){
     print_r($one);
+    echo"</br>";
 }
 ?>
 <div class="uk-container uk-container-large uk-margin">
