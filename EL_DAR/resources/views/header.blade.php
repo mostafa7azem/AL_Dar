@@ -80,9 +80,7 @@
             font-style: oblique;
             
         }
-        .a{
-            color:black;
-        }
+        
         </style>
         <title>EL DAR</title>
         <link rel="stylesheet" href="{!! asset('css/uikit.min.css') !!}" />
