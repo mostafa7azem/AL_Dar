@@ -38,7 +38,8 @@ return [
     'kitchen PVC'=>'مطبخ PVC',
     'doorswindows Alumital'=>'ابواب و شبابيك الوميتال',
     'dressingroom'=>'غرفة ملابس',
-    'logout'=>'تسجيل الخروج'
+    'logout'=>'تسجيل الخروج',
+    "add"=>"اضافة"
 
 
 

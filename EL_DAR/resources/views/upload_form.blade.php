@@ -1,7 +1,19 @@
 
 @include('header')
+<?php
 
 
+
+
+
+
+
+
+ 
+$value = session('login');
+    if($value=="admin"){
+
+?>
 <div class="uk-container uk-container-small">
 
 <form class="uk-form-horizontal uk-margin-large" action="/upload" method="post" enctype="multipart/form-data">
@@ -23,7 +35,7 @@
 </div>
 
 <div class="uk-margin">
-    <label class="uk-form-label" for="form-horizontal-select">Type</label>
+    <label class="uk-form-label " for="form-horizontal-select">Type</label>
     <div class="uk-form-controls">
         <select class="uk-select" id="form-horizontal-select" name="type">
         
@@ -63,7 +75,11 @@
  </div>
 </form>
 </div>
-
+<?php
+    }else{
+        header("Location: welcome.blade.php");
+    }
+?>
 
 @include('footer')
 

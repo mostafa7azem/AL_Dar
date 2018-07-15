@@ -29,7 +29,7 @@
                             <li><a href="/dressingrooms">{{ trans('messages.dressing') }}</a></li>
                             <li><a href="/Bathroomsector">{{ trans('messages.Bathroomsector') }}</a></li>
                             <li><a href="/moderntables">{{ trans('messages.moderntables') }}</a></li>
-                            <li><a href="#">{{ trans('messages.builtindevices') }}</a></li>
+                            <li><a href="/builtindevices">{{ trans('messages.builtindevices') }}</a></li>
                         </ul>
                     </div>
                 </li>
@@ -44,8 +44,12 @@
                 if($value=="admin"){?><li><a>
                     <form action="/logout" method="post">
                         {{csrf_field()}}
+
                     <input type="submit" value="LOGOUT"></form>
-                </a></li><?php
+                </a></li>
+                <li><a href="/upload">{{ trans('messages.add') }}</a></li>
+                
+                <?php
                     
                 }
                 if($value!="admin"){

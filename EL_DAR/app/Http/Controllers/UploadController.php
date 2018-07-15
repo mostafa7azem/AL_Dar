@@ -20,8 +20,10 @@ class UploadController extends Controller
     public function uploadSubmit(UploadRequest $request)
     {
         $product = Product::create($request->all());
+
         foreach ($request->photos as $photo) {
             $filename = $photo->store('public/images');
+            $filename =explode('/', $filename, 2)[1];
             ProductsPhoto::create([
                 'product_id' => $product->id,
                 'filename' => $filename

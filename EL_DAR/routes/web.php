@@ -24,6 +24,8 @@ Route::get('/', function () {
 route::post("/insert", "controller@insert");
 route::post("/loginme", "loginController@login");
 Route::post("/logout","loginController@logout");
+Route::post("/delet","controller@delete");
+
 
 Route::post('/language', array (
     'Middleware'=>'LanguageSwitcher'
@@ -44,7 +46,18 @@ Route::get('/doorsandwindows', function () {
     Route::get('/dressingrooms', function () {
         return View::make('dressingrooms');
     });
-    Route::get('/Bathroomsector', 'controller@getdata');
+    Route::get('/Bathroomsector', 'controller@getBathroomsector');
+    Route::get('/builtindevices', 'controller@getbuiltindevices');
+    
+    Route::get('/doorsandwindows', 'controller@getdoorsandwindows');
+    
+    Route::get('/dressingrooms', 'controller@getdressingrooms');
+    Route::get('/kitchen', 'controller@getkitchen');
+    Route::get('/kitchenhoods', 'controller@getkitchenhoods');
+    Route::get('/libraries', 'controller@getlibraries');
+    Route::get('/moderntables', 'controller@getmoderntables');
+
+
     Route::get('/builtindevices', function () {
         return View::make('builtindevices');
     });
