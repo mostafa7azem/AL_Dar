@@ -60,8 +60,8 @@ $count1 = $count;
                 $type= "PVC";
             }elseif($date[$l]["type"]=="HPL" or $date[$l]["type"]=="HPL"){
                 $type= "HPL";
-            }elseif($date[$l]["type"]=="glading" or $date[$l]["type"]=="glading"){
-                $type= "----";
+            }elseif($date[$l]["type"]=="glading" or $date[$l]["type"]=="جلادنج"){
+                $type= "glading";
             }
             else{
                 $type= "Alumital";

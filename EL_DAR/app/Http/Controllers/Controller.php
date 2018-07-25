@@ -97,7 +97,7 @@ class Controller extends BaseController
     
     }
     function getmoderntables(){
-        $data['data']=DB::table('products')->whereIn("type",[ 'moderntables','تربيزات مودرن'])->get();
+        $data['data']=DB::table('products')->whereIn("type",[ 'modern tables','تربيزات مودرن'])->get();
         $alldata = $data;    
         $date=$data['data']->toArray();
         $date = json_decode(json_encode($date),true);
@@ -142,7 +142,7 @@ class Controller extends BaseController
     
     }
     function getaccessories(){
-        $data['data']=DB::table('products')->whereIn("type",[ 'accessories','اكسيسوارات'])->get();
+        $data['data']=DB::table('products')->whereIn("type",[ 'accessories','اكسسوارات'])->get();
         $alldata = $data;    
         $date=$data['data']->toArray();
         $date = json_decode(json_encode($date),true);
