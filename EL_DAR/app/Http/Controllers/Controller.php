@@ -141,6 +141,24 @@ class Controller extends BaseController
         return view('libarary',$data);
     
     }
+    function getaccessories(){
+        $data['data']=DB::table('products')->whereIn("type",[ 'accessories','اكسيسوارات'])->get();
+        $alldata = $data;    
+        $date=$data['data']->toArray();
+        $date = json_decode(json_encode($date),true);
+        
+        foreach($date as $one){
+            $images['data']=DB::table('products_photos')->where("product_id",$one['id'])->get();
+            $data['data']->push($images['data']);
+        }
+        
+           
+        return view('accessories',$data);
+    }
+    
+
+
+    
     function getkitchen(){
         $data['data']=DB::table('products')->whereIn("type",['khachmonium','خاشمنيوم',
         'Acleric','اكلاريك',
@@ -150,7 +168,7 @@ class Controller extends BaseController
         'polylac','بولي لاك',
         'kitchen Alumital','مطبخ الوميتال',
         'kitchen PVC','مطبخ PVC',
-        'HPL','HPL','-----'])->get();
+        'HPL','HPL','glading','جلادنج'])->get();
         $alldata = $data;    
         $date=$data['data']->toArray();
         $date = json_decode(json_encode($date),true);

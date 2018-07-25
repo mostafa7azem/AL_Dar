@@ -23,7 +23,7 @@ $count1 = $count;
     <div class="uk-width-small@m">
 
         <ul class="uk-nav uk-nav-default" uk-switcher="connect: #component-nav; animation: uk-animation-fade; toggle: > :not(.uk-nav-header)">
-        <li class="uk-active uk-text-large"  uk-filter-control><a style="color:white;"href="#">All</a></li>
+        <li class="uk-active  "  uk-filter-control><a style="color:white;"href="#">All</a></li>
         </ul>
 
     </div>

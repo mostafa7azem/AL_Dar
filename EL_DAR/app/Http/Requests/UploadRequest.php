@@ -15,7 +15,10 @@ class UploadRequest extends FormRequest
     public function rules()
     {
         $rules = [
-            'name' => 'required'
+            'name' => 'required',
+            'description' => 'required',
+            'type' => 'required',
+            'photos' => 'required'
         ];
         
  

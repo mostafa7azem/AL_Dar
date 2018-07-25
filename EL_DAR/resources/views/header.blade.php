@@ -76,6 +76,14 @@
             -o-background-size: cover;
             background-size: cover;
         }
+        .ac{
+            height: 100vh;
+            background: url("{!! asset('images/Baskets_3.jpg') !!}") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
         li{
             font-style: oblique;
             
@@ -106,6 +114,8 @@
                             <li><a href="/Bathroomsector">{{ trans('messages.Bathroomsector') }}</a></li>
                             <li><a href="/moderntables">{{ trans('messages.moderntables') }}</a></li>
                             <li><a href="/builtindevices">{{ trans('messages.builtindevices') }}</a></li>
+                            <li><a href="/accessories">{{ trans('messages.accessories') }}</a></li>
+                            
                         </ul>
                     </div>
                 </li>

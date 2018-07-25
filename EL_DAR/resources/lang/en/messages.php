@@ -41,5 +41,6 @@ return [
     'logout'=>'log out',
     "add"=>"add",
     "glading"=>"glading",
+    'accessories','accessories'
     
 ];

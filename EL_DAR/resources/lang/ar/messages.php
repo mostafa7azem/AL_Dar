@@ -40,7 +40,8 @@ return [
     'dressingroom'=>'غرفة ملابس',
     'logout'=>'تسجيل الخروج',
     "add"=>"اضافة",
-    "glading"=>"جلادنج"
+    "glading"=>"جلادنج",
+    'accessories','اكسيسوارات'
 
 
 

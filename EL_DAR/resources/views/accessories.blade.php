@@ -1,6 +1,5 @@
 @include('header')
-<div class="tn uk-padding">
-
+<div class="ac uk-padding">
 <?php
 if(isset($data)){
 $date = json_decode(json_encode($data),true);
@@ -16,7 +15,9 @@ foreach($date as $one){
     }
 }
 
+
 $count1 = $count;
+
 ?>
 <div class="uk-container uk-container-large uk-margin">
 <div uk-filter="target: .js-filter">
@@ -24,7 +25,7 @@ $count1 = $count;
     <div class="uk-width-small@m">
 
         <ul class="uk-nav uk-nav-default" uk-switcher="connect: #component-nav; animation: uk-animation-fade; toggle: > :not(.uk-nav-header)">
-        <li class="uk-active  " uk-filter-control><a href="#">All</a></li>
+        <li class="uk-active" uk-filter-control><a href="#">All</a></li>
         </ul>
 
     </div>
@@ -121,5 +122,4 @@ $count1 = $count;
 }
 ?>
 </div>
-
 @include('footer')

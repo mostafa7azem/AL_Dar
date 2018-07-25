@@ -55,9 +55,10 @@ $value = session('login');
             <option>{{ trans('messages.HPL') }}</option>
             <option>{{ trans('messages.LAMIGLOSS') }}</option>
             <option>{{ trans('messages.highgloss') }}</option>
-            <option>{{ trans('messages.powergloss') }}</option>
+                   <option>{{ trans('messages.powergloss') }}</option>
             <option>{{ trans('messages.polylac') }}</option>
-            <option>{{ trans('messages.-----') }}</option>
+            <option>{{ trans('messages.glading') }}</option>
+            <option>{{ trans('messages.accessories') }}</option>
 
         </select>
     </div>

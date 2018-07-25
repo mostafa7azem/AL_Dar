@@ -24,17 +24,17 @@ $count1 = $count;
     <div class="uk-width-small@m">
 
         <ul class="uk-nav uk-nav-default" uk-switcher="connect: #component-nav; animation: uk-animation-fade; toggle: > :not(.uk-nav-header)">
-        <li class="uk-active uk-text-large" uk-filter-control><a style="color:black;"href="#">All</a></li>
-        <li class="uk-text-large " uk-filter-control="[data-color='Alumital']"><a style="color:black;"style="color:black;" href="#">{{ trans('messages.Alumital') }}</a></li>
-        <li class="uk-text-large " uk-filter-control="[data-color='khachmonium']"><a style="color:black;"href="#">{{ trans('messages.khachmonium') }}</a></li>
-        <li class="uk-text-large " uk-filter-control="[data-color='Acleric']"><a style="color:black;"href="#">{{ trans('messages.Acleric') }}</a></li>
-        <li class="uk-text-large" uk-filter-control="[data-color='PVC']"><a style="color:black;"href="#">{{ trans('messages.PVC') }}</a></li>
-        <li class="uk-text-large" uk-filter-control="[data-color='HPL']"><a style="color:black;"href="#">{{ trans('messages.HPL') }}</a></li>
-        <li class="uk-text-large" uk-filter-control="[data-color='LAMIGLOSS']"><a style="color:black;"href="#">{{ trans('messages.LAMIGLOSS') }}</a></li>
-        <li class="uk-text-large" uk-filter-control="[data-color='HighGloss']"><a style="color:black;"href="#">{{ trans('messages.highgloss') }}</a></li>
-        <li class="uk-text-large" uk-filter-control="[data-color='powergloss']"><a style="color:black;"href="#">{{ trans('messages.powergloss') }}</a></li>
-        <li class="uk-text-large" uk-filter-control="[data-color='polylac']"><a style="color:black;"href="#">{{ trans('messages.polylac') }}</a></li>
-        <li class="uk-text-large" uk-filter-control="[data-color='----']"><a style="color:black;"href="#">{{ trans('messages.-----') }}</a></li>
+        <li class="uk-active  " uk-filter-control><a style="color:black;"href="#">All</a></li>
+        <li class="  " uk-filter-control="[data-color='Alumital']"><a style="color:black;"style="color:black;" href="#">{{ trans('messages.Alumital') }}</a></li>
+        <li class="  " uk-filter-control="[data-color='khachmonium']"><a style="color:black;"href="#">{{ trans('messages.khachmonium') }}</a></li>
+        <li class="  " uk-filter-control="[data-color='Acleric']"><a style="color:black;"href="#">{{ trans('messages.Acleric') }}</a></li>
+        <li class=" " uk-filter-control="[data-color='PVC']"><a style="color:black;"href="#">{{ trans('messages.PVC') }}</a></li>
+        <li class=" " uk-filter-control="[data-color='HPL']"><a style="color:black;"href="#">{{ trans('messages.HPL') }}</a></li>
+        <li class=" " uk-filter-control="[data-color='LAMIGLOSS']"><a style="color:black;"href="#">{{ trans('messages.LAMIGLOSS') }}</a></li>
+        <li class=" " uk-filter-control="[data-color='HighGloss']"><a style="color:black;"href="#">{{ trans('messages.highgloss') }}</a></li>
+        <li class=" " uk-filter-control="[data-color='powergloss']"><a style="color:black;"href="#">{{ trans('messages.powergloss') }}</a></li>
+        <li class=" " uk-filter-control="[data-color='polylac']"><a style="color:black;"href="#">{{ trans('messages.polylac') }}</a></li>
+        <li class=" " uk-filter-control="[data-color='glading']"><a style="color:black;"href="#">{{ trans('messages.glading') }}</a></li>
         </ul>
 
     </div>
@@ -60,7 +60,7 @@ $count1 = $count;
                 $type= "PVC";
             }elseif($date[$l]["type"]=="HPL" or $date[$l]["type"]=="HPL"){
                 $type= "HPL";
-            }elseif($date[$l]["type"]=="-----" or $date[$l]["type"]=="-----"){
+            }elseif($date[$l]["type"]=="glading" or $date[$l]["type"]=="glading"){
                 $type= "----";
             }
             else{
