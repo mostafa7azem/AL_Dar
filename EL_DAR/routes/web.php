@@ -61,9 +61,4 @@ Route::get('/doorsandwindows', function () {
     Route::get('/accessories', 'controller@getaccessories');
 
 
-    Route::get('/builtindevices', function () {
-        return View::make('builtindevices');
-    });
-    Route::get('/moderntables', function () {
-        return View::make('moderntables');
-    });
+    
