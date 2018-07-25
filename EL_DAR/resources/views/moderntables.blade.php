@@ -1,5 +1,5 @@
 @include('header')
-<div class="mo uk-padding">
+<div class="mo  uk-padding uk-overflow-auto">
 
 <?php
 if(isset($data)){
@@ -99,7 +99,7 @@ $count1 = $count;
     </div>
 
 </div>
-            <div class="uk-padding-large">
+            <div class=" uk-padding uk-overflow-auto-large">
                 <h1><?php echo $date[$l]["name"];?></h1>
                 <p> <?php echo $date[$l]["description"];?>.</p>
             </div>

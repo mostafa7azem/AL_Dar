@@ -1,5 +1,5 @@
 @include('header')
-<div class="k uk-padding">
+<div class="k  uk-padding  uk-overflow-auto">
 <?php
 if(isset($data)){
 $date = json_decode(json_encode($data),true);
@@ -131,7 +131,7 @@ $count1 = $count;
     </div>
 
 </div>
-            <div class="uk-padding-large">
+            <div class=" uk-padding uk-overflow-auto-large">
                 <h1><?php echo $date[$l]["name"];?></h1>
                 <p> <?php echo $date[$l]["description"];?>.</p>
             </div>
