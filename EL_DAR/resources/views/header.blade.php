@@ -89,9 +89,8 @@
     </head>
     <body>
     <nav class=" uk-background-secondary" uk-navbar>
-    <div class="uk-navbar-center uk-light uk-background-secondary">
-
-        <div class="uk-navbar-center-left uk-light uk-background-secondary"><div>
+    <div class="uk-navbar-center uk-light uk-background-secondary" style="margin-left: 28%">
+        <a class="uk-navbar-item uk-logo " href="/"><img src="{!! asset('images/36981931_1853667418012394_8883674462004707328_n.jpg') !!}" style="max-height:80px"></a>
             <ul class="uk-navbar-nav">
                 <li ><a href="/#vision">{{ trans('messages.About') }}</a></li>
                 <li>
@@ -111,8 +110,7 @@
                     </div>
                 </li>
             </ul>
-        </div></div>
-        <a class="uk-navbar-item uk-logo " href="/"><img src="{!! asset('images/36981931_1853667418012394_8883674462004707328_n.jpg') !!}" style="max-height:80px"></a>
+        
         <div class="uk-navbar-center-right uk-light uk-background-secondary"><div>
             <ul class="uk-navbar-nav">
                 <li><a href="/#contact">{{ trans('messages.contact') }}</a></li>
@@ -148,7 +146,6 @@
         
         </div>
 
-    </div>
 </nav>
 <div id="modal-sections" uk-modal>
     <div class="uk-modal-dialog">

@@ -39,7 +39,8 @@ return [
     'doorswindows Alumital'=>'ابواب و شبابيك الوميتال',
     'dressingroom'=>'غرفة ملابس',
     'logout'=>'تسجيل الخروج',
-    "add"=>"اضافة"
+    "add"=>"اضافة",
+    "glading"=>"جلادنج"
 
 
 

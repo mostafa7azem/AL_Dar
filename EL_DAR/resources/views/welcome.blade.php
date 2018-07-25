@@ -27,7 +27,7 @@
             </div>
         </li>
         <li>
-            <img src="{!! asset('images/modern-homes-interior-home-library-office-design.jpg') !!}" alt="" uk-cover>
+            <img src="{!! asset('images/create_home_library_03.jpg') !!}" alt="" uk-cover>
             <div class="uk-position-center uk-position-small uk-text-center uk-light uk-overlay uk-overlay-primary">
                 <h2 class="uk-margin-remove">{{ trans('messages.libraries') }}</h2>
                 <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -53,7 +53,7 @@
     <div>
     <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src="{!! asset('images/lg-appliances-package-awesome-like-sears-appliance-package-awesome-lg-kitchen-appliance-sets-buy-home-of-lg-appliances-package.jpg') !!}" alt="">
+                <img src="{!! asset('images/ariston-built-in-gas-cooker-60-cm-4-burners-safety-cast-iron-stainless-ftghl-641-dixa-lpg.jpg') !!}" alt="">
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">{{ trans('messages.kitechendevices') }}</h3>

@@ -7,7 +7,7 @@ return [
     'eldar'=>'EL DAR',
     'contact'=>'contact us',
     'login'=>'login',
-    'doorswindows'=>'doors & windows',
+    'doorswindows'=>'doors&windows',
     'kitchens'=>'kitchens',
     'tanda'=>'tanda',
     'liberary'=>'liberaries',
@@ -39,6 +39,7 @@ return [
     'doorswindows Alumital'=>'doorswindows Alumital',
     'dressingroom'=>'dressingroom',
     'logout'=>'log out',
-    "add"=>"add"
+    "add"=>"add",
+    "glading"=>"glading",
     
 ];
